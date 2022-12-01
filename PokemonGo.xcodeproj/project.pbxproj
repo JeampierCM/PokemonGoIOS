@@ -14,6 +14,10 @@
 		E64AD8A2293802D70081F80F /* PokemonGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E64AD8A0293802D60081F80F /* PokemonGo.xcdatamodeld */; };
 		E64AD8A4293802EE0081F80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64AD8A3293802EE0081F80F /* Assets.xcassets */; };
 		E64AD8A7293802EE0081F80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64AD8A5293802EE0081F80F /* LaunchScreen.storyboard */; };
+		E64AD8B0293805990081F80F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64AD8AF293805990081F80F /* MapKit.framework */; };
+		E64AD8B229381F6A0081F80F /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AD8B129381F6A0081F80F /* PokedexViewController.swift */; };
+		E64AD8B42938229E0081F80F /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AD8B32938229E0081F80F /* Funciones.swift */; };
+		E64AD8B6293839070081F80F /* PokePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AD8B5293839070081F80F /* PokePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E64AD8A3293802EE0081F80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64AD8A6293802EE0081F80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E64AD8A8293802EE0081F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64AD8AF293805990081F80F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E64AD8B129381F6A0081F80F /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		E64AD8B32938229E0081F80F /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
+		E64AD8B5293839070081F80F /* PokePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64AD8B0293805990081F80F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			children = (
 				E64AD896293802D50081F80F /* PokemonGo */,
 				E64AD895293802D50081F80F /* Products */,
+				E64AD8AE293805980081F80F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +76,19 @@
 				E64AD8A5293802EE0081F80F /* LaunchScreen.storyboard */,
 				E64AD8A8293802EE0081F80F /* Info.plist */,
 				E64AD8A0293802D60081F80F /* PokemonGo.xcdatamodeld */,
+				E64AD8B129381F6A0081F80F /* PokedexViewController.swift */,
+				E64AD8B32938229E0081F80F /* Funciones.swift */,
+				E64AD8B5293839070081F80F /* PokePin.swift */,
 			);
 			path = PokemonGo;
+			sourceTree = "<group>";
+		};
+		E64AD8AE293805980081F80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E64AD8AF293805990081F80F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64AD89C293802D50081F80F /* ViewController.swift in Sources */,
+				E64AD8B6293839070081F80F /* PokePin.swift in Sources */,
 				E64AD8A2293802D70081F80F /* PokemonGo.xcdatamodeld in Sources */,
+				E64AD8B229381F6A0081F80F /* PokedexViewController.swift in Sources */,
 				E64AD898293802D50081F80F /* AppDelegate.swift in Sources */,
+				E64AD8B42938229E0081F80F /* Funciones.swift in Sources */,
 				E64AD89A293802D50081F80F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
